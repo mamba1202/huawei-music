@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#player {
+  background: #060a3d;
+  height: 100vh;
+}
+#player .header {
+  text-align: center;
+}
+#player .header h1 {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 20px;
+}
+#player .header p {
+  color: #868aaf;
+  font-size: 12px;
+}
+#player .area-effect .balls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#player .area-effect .balls span {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #b3b3b3;
+  margin: 0 4px;
+}
+#player .area-effect .balls span.current {
+  width: 8px;
+  height: 8px;
+  background: #db3baa;
+}
